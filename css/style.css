@@ -105,3 +105,20 @@ section > section > h2 {
 section > section > img {
     margin: 0 10px 15px 0;
 }
+
+.links {
+    position: fixed;
+    //float: right;
+    width: 88px;
+    height: 68px;
+    border: 1px solid black;
+    background-color: #fbaf5d;
+    text-align: center;
+    right: 0px;
+    top: 90vh;
+}
+
+.links > h2 {
+    margin: 10px 0;
+    font-size: 16px;
+}
