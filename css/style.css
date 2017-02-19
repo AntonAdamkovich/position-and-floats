@@ -97,6 +97,10 @@ section > footer > p {
     margin: 0;
 }
 
+section > section {
+    clear: both;
+}
+
 section > section > h2 {
     margin: 20px 0;
     font-size: 18px;
@@ -118,7 +122,16 @@ section > section > img {
     top: 90vh;
 }
 
+section > section {
+    overflow: hidden;
+}
+
 .links > h2 {
     margin: 10px 0;
     font-size: 16px;
+}
+
+section > section > img:nth-child(2n+1){
+    float: right;
+    margin-right: 0;
 }
