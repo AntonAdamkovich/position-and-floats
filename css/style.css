@@ -1,147 +1,194 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    height: 2000px;
+body
+{
     font-family: 'PT Sans', sans-serif;
+
+    height: 2000px;
+    margin: 0;
+    padding: 0;
 }
 
-main {
-    margin: 200px 0px 0px 218px;
+main
+{
+    margin: 200px 0 0 218px;
 }
 
-.page {
+.page
+{
     position: absolute;
-    height: 676px;
+
     width: 450px;
+    height: 676px;
     padding: 35px;
+
     border: 2px solid black;
 }
 
-.page_bg-color-grey-light {
+.page_bg-color-grey-light
+{
     background-color: #ebebeb;
 }
 
-.page_bg-color-grey {
-    background-color: #cccccc;
+.page_bg-color-grey
+{
+    background-color: #ccc;
 }
 
-.page_bg-color-grey-dark {
+.page_bg-color-grey-dark
+{
     background-color: #acacac;
 }
 
-.page_position-second {
+.page_position-second
+{
     margin: 20px 0 0 20px;
 }
 
-.page_position-third {
+.page_position-third
+{
     margin: 40px 0 0 40px;
 }
 
-.page__sticker {
+.page__sticker
+{
     float: right;
+
     width: 107px;
     height: 31px;
-    border-radius: 0px 10px 10px 0px;
+
     border: 2px solid black;
+    border-radius: 0 10px 10px 0;
 }
 
-.page__sticker_position-first {
+.page__sticker_position-first
+{
     margin-right: -120px;
 }
 
-.page__sticker_position-second {
+.page__sticker_position-second
+{
     margin-right: -90px;
 }
 
-.page__sticker_position-third {
+.page__sticker_position-third
+{
     margin-right: -60px;
 }
 
-.page__sticker_bg-color-orange {
+.page__sticker_bg-color-orange
+{
     background-color: rgba(246, 142, 86, 1);
 }
 
-.page__sticker_bg-color-green {
+.page__sticker_bg-color-green
+{
     background-color: rgba(57, 181, 74, 1);
 }
 
-.page__sticker_bg-color-blue {
+.page__sticker_bg-color-blue
+{
     background-color: rgba(0, 174, 239, 1);
 }
 
-.page > section > h1 {
+.page > section > h1
+{
     margin: 0 0 14px 0;
 }
 
-.page > section > article {
+.page > section > article
+{
     font-size: 12px;
 }
 
-article p:first-child {
+article p:first-child
+{
     margin-bottom: -12px;
 }
 
-article p:first-child img {
+article p:first-child img
+{
     float: left;
-    margin: 0px 21px 20px 0px;
+
+    margin: 0 21px 20px 0;
 }
 
-article p:last-child img {
+article p:last-child img
+{
     float: right;
+
     margin-left: 5px;
 }
 
-section > footer > p {
-    text-align: center;
+section > footer > p
+{
     font-size: 9px;
+
     margin: 0;
+
+    text-align: center;
 }
 
-section > section {
+section > section
+{
     clear: both;
 }
 
-section > section > h2 {
-    margin: 20px 0;
+section > section > h2
+{
     font-size: 18px;
+
+    margin: 20px 0;
 }
 
-section > section > img {
+section > section > img
+{
     margin: 0 10px 15px 0;
 }
 
-.links {
+.links
+{
     position: fixed;
-    //float: right;
+    top: 90vh;
+    right: 0;
+
     width: 88px;
     height: 68px;
+
+    text-align: center;
+
     border: 1px solid black;
     background-color: #fbaf5d;
-    text-align: center;
-    right: 0px;
-    top: 90vh;
+
+    //float: right;
 }
 
-section > section {
+section > section
+{
     overflow: hidden;
 }
 
-.links > h2 {
-    margin: 10px 0;
+.links > h2
+{
     font-size: 16px;
+
+    margin: 10px 0;
 }
 
-section > ul > li:nth-child(2n+1){
+section > ul > li:nth-child(2n+1)
+{
     float: right;
+
     margin-right: 0;
 }
 
-section > ul > li {
-    list-style: none;
+section > ul > li
+{
     margin-bottom: 14px;
+
+    list-style: none;
 }
 
-section > ul {
-    padding: 0;
+section > ul
+{
     margin: 10px 0;
+    padding: 0;
 }
